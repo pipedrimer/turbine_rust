@@ -160,7 +160,7 @@ let signature = rpc_client
     .expect("Failed to send transaction");
 
 println!(
-    "Success! Check out your TX here: https://explorer.solana.com/tx/{}/?cluster=devnet",
+    "Success! Check out your TX: https://explorer.solana.com/tx/{}/?cluster=devnet",
     signature
 );
 }
